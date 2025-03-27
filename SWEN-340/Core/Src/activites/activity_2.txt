@@ -1,0 +1,10 @@
+2) signed char q2 = -5
+Binary:
+    0000 0101
+    1111 1010 ~
+    1111 1011 + 1
+    Value = 1111 1011
+Hex:
+    1111 = 0xF
+    1011 = 0xB
+    Value = 0xFB

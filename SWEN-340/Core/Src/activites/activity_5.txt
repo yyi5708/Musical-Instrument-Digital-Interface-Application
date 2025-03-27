@@ -1,0 +1,5 @@
+For Header:
+Length - 6
+Format - 1
+Number Tracks - 2
+Division - 256

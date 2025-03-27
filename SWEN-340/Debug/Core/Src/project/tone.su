@@ -1,0 +1,6 @@
+../Core/Src/project/tone.c:38:10:hertz_to_midi_ticks	24	static
+../Core/Src/project/tone.c:47:10:get_counter	4	static
+../Core/Src/project/tone.c:52:6:reset_counter	4	static
+../Core/Src/project/tone.c:57:9:add_tone	24	static
+../Core/Src/project/tone.c:63:9:remove_tone	16	static
+../Core/Src/project/tone.c:70:6:play_tones	8	static

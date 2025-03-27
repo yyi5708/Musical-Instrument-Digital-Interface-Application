@@ -1,0 +1,54 @@
+SWEN-340: Data Representation.
+Questions:
+   1. Convert decimal 95 to hexadecimal:
+            Answer:
+            0x5F.
+            Reasoning:
+            95 = 95 / 16 = quotient of 5 and remainder of 15.
+            F is 15 = 0x5F.
+   2. Convert 0x1CD to unsigned decimal:
+            Answer:
+            461.
+            Reasoning:
+            C is 12 and D is 13.
+            0x1CD = D * 1 = 13, C * 16 = 192, 1 * 16 * 16 = 256, 13 + 192 + 256 = 461.
+   3. What is the value of binary 10101011 in decimal if this is a negative number:
+	      Answer:
+            -85.
+	      Reasoning:
+            Inverted = 01010100 and adding 1 = 01010101.
+            01010101 = 1 * 2 ^ 0 + 1 * 2 ^ 2 + 1 * 2 ^ 4 + 1 * 2 ^ 6 = 1 + 4 + 16 + 64 = 85 = -85.
+	   
+   4. What is the value of binary 111001111 in decimal if this is an unsigned number:
+            Answer:
+            463.
+	      Reasoning:
+            111001111 = 1 * 2 ^ 8 + 1 * 2 ^ 7 + 1 * 2 ^ 6 + 0 * 2 ^ 5 + 0 * 2 ^ 4 + 1 * 2 ^ 3 + 1 * 2 ^ 2 + 1 * 2 ^ 1 + 1 * 2 ^ 0 = 463.
+   5. Add 0x8BCD and 0x02E6:
+            Answer:
+            0x8EB3.
+            Reasoning:
+            B is 11, C is 12, D is 13, E is 14.
+            0x8BCD = 8 * 16 ^ 3 + 11 * 16 ^ 2 + 12 * 16 ^ 1 + 13 * 16 ^ 0 = 35789.
+            0x02E6 = 0 * 16 ^ 3 + 2 * 16 ^ 2 + 14 * 16 ^ 1 + 6 * 16 ^ 0 = 742.
+            35789 + 742 = 36531 / 16 = quotient of 2283 and remainder of 3.
+            2283 / 16 = quotient of 142 and remainder of 11.
+            142 / 16 = quotient of 8 and remainder of 14.
+            8 / 16 = quotient of 0 and remainder of 8.
+            = 0x8EB3.
+   6. Add 8 bit binary integers 10101111 and 11011011:
+            Answer:
+            0x8A.
+            Reasoning:
+            A is 10.
+            10101111 = 1 * 2 ^ 7 + 0 * 2 ^ 6 + 1 * 2 ^ 5 + 0 * 2 ^ 4 + 1 * 2 ^ 3 + 1 * 2 ^ 2 + 1 * 2 ^ 1 + 1 * 2 ^ 0 = 175
+            11011011 = 1 * 2 ^ 7 + 1 * 2 ^ 6 + 0 * 2 ^ 5 + 1 * 2 ^ 4 + 1 * 2 ^ 3 + 1 * 0 ^ 2 + 1 * 2 ^ 1 + 1 * 2 ^ 0 = 219
+            175 + 219 = 394 - 256 = 138.
+            138 / 16 = quotient of 8 and remainder of 10.
+            = 0x8A.
+   7.	How many bits are in each of the following data types:
+		      a. Byte		   Answer: 8.
+		      b. Short 		Answer: 16.
+		      c. Int      	Answer: 32.
+		      d. Long    		Answer: 32.
+		      e. Nibble		Answer: 4.

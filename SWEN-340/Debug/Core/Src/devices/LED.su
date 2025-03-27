@@ -1,0 +1,4 @@
+../Core/Src/devices/LED.c:7:6:LED_Init	4	static
+../Core/Src/devices/LED.c:18:6:LED_On	4	static
+../Core/Src/devices/LED.c:23:6:LED_Off	4	static
+../Core/Src/devices/LED.c:28:6:LED_Toggle	4	static

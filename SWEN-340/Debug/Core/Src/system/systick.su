@@ -1,0 +1,2 @@
+../Core/Src/system/systick.c:5:6:init_systick	16	static
+../Core/Src/system/systick.c:14:6:delay_systick	16	static

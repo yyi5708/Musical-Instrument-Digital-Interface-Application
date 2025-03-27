@@ -1,0 +1,8 @@
+../Core/Src/devices/UART.c:9:6:UART2_Init	8	static
+../Core/Src/devices/UART.c:18:6:UART2_GPIO_Init	4	static
+../Core/Src/devices/UART.c:30:6:USART_Init	16	static
+../Core/Src/devices/UART.c:56:9:USART_Read	16	static
+../Core/Src/devices/UART.c:62:9:USART_Read_Nonblocking	16	static
+../Core/Src/devices/UART.c:70:6:USART_Write	32	static
+../Core/Src/devices/UART.c:82:6:USART_Delay	24	static
+../Core/Src/devices/UART.c:88:6:USART_IRQHandler	24	static

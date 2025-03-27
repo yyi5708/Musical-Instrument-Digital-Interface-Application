@@ -1,0 +1,5 @@
+../Core/Src/devices/dac.c:7:6:HAL_DAC_MspInit	48	static
+../Core/Src/devices/dac.c:20:6:HAL_DAC_MspDeInit	16	static
+../Core/Src/devices/dac.c:28:6:DAC_Init	48	static
+../Core/Src/devices/dac.c:46:6:DAC_Start	8	static
+../Core/Src/devices/dac.c:50:6:DAC_Set_Value	16	static

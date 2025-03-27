@@ -1,0 +1,17 @@
+../Drivers/CMSIS/Include/core_cm4.h:1809:22:__NVIC_SetPriority	2
+../Drivers/CMSIS/Include/core_cm4.h:2017:26:SysTick_Config	2
+../Core/Src/project/project_part_3.c:27:6:init_all	1
+../Core/Src/project/project_part_3.c:52:6:switch_to_remote_mode	1
+../Core/Src/project/project_part_3.c:61:6:switch_to_local_mode	1
+../Core/Src/project/project_part_3.c:70:6:display_help	1
+../Core/Src/project/project_part_3.c:81:6:next_help	1
+../Core/Src/project/project_part_3.c:92:6:display_info	1
+../Core/Src/project/project_part_3.c:99:6:play_song	2
+../Core/Src/project/project_part_3.c:107:6:pause_song	2
+../Core/Src/project/project_part_3.c:115:6:stop_song	2
+../Core/Src/project/project_part_3.c:123:6:next_song	1
+../Core/Src/project/project_part_3.c:129:6:toggle_flash	3
+../Core/Src/project/project_part_3.c:140:6:SysTick_Handler	2
+../Core/Src/project/project_part_3.c:150:6:process_command	7
+../Core/Src/project/project_part_3.c:171:6:run_loop	6
+../Core/Src/project/project_part_3.c:206:5:run_main	1
